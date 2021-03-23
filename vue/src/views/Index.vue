@@ -5,6 +5,7 @@
       <sp-bank-balances />
       <sp-token-send />
       <!-- this line is used by starport scaffolding # 4 -->
+		<sp-type-form path="windforcer.blog.blog" type="claim" :fields="[ ['creator', 1, 'string'] , ['proof', 2, 'string'] ]" />
     </div>
   </div>
 </template>
