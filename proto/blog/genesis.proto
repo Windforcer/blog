@@ -1,0 +1,9 @@
+syntax = "proto3";
+package windforcer.blog.blog;
+
+option go_package = "github.com/windforcer/blog/x/blog/types";
+
+// GenesisState defines the capability module's genesis state.
+message GenesisState {
+}
+
